@@ -1,0 +1,31 @@
+/* How your app looks: colours, fonts, spacing. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1f2933;
+  background: #f5f7fa;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 2rem;
+  color: #12355b;
+}
+
+.tagline {
+  margin: 0 0 24px;
+  color: #52606d;
+}
